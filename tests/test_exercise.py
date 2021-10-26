@@ -4,7 +4,7 @@ import os
 def test_exercise():
     os.chdir('src')
 
-    from cube import Cube
+    from src.cube import Cube
     sand = Cube(3)
 
     assert sand.volume() == 27
